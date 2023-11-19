@@ -31,7 +31,7 @@ if (document.getElementById('contact-form')) {
           // thankMessage.classList.add('show')
           $('.input-field').removeClass('field-error');
           setTimeout(function(){
-            window.location.open('/insoles/thank.html')
+            window.location.open('https://denoparenuyck.github.io/insoles/')
           },1000)
         })
         .catch((err) => {
