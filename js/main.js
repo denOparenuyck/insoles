@@ -31,7 +31,7 @@ if (document.getElementById('contact-form')) {
           // thankMessage.classList.add('show')
           $('.input-field').removeClass('field-error');
           setTimeout(function(){
-            window.open('/thank.html')
+            window.open('/insoles/thank.html')
           },1000)
         })
         .catch((err) => {
